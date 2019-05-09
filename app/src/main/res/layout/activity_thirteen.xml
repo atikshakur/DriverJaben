@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DFDFDF">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirteenActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_layout"
+        android:layout_below="@id/layout_information"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/layout_txt"
+            android:layout_below="@id/cardview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#ffffff">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:padding="10dp"
+                android:text="Want to receive request when using other app?"
+                android:textColor="#000000"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_below="@id/cardview_layout"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C5C7CB" />
+
+            <LinearLayout
+                android:id="@+id/layout_txt2"
+                android:layout_below="@id/cardview_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:textColor="#000000"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:padding="10dp"/>
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_below="@id/cardview_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="   Change Password"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:background="#D01A1E"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:padding="10dp"
+                android:text="Current Password"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter Current Password"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:padding="10dp"
+                android:text="New Password"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Enter New Password"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:padding="10dp"
+                android:text="Retype Password"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Re-enter New Password" />
+
+            <Button
+                android:id="@+id/btn_Done"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_round_red"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:padding="2dp"
+                android:text="Update Password"
+                android:textAllCaps="true"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/layout_location"
+        android:layout_below="@id/cardview_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location Access"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For using the app properly"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_camera"
+        android:layout_below="@id/layout_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera Access"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For uploading photo and documents"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_gallery"
+        android:layout_below="@id/layout_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_collections_black_24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gallery Access"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select photo and documents from gallery"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

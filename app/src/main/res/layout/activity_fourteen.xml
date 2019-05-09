@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E3E3"
+    tools:context=".FourteenActivity">
+
+    <TextView
+        android:id="@+id/txt_terms"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:text="Terms and Conditions"
+        android:textSize="18sp"
+        android:textColor="#404040"
+        android:fontFamily="@font/source_sans_pro"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:drawableRight="@drawable/next_more"/>
+
+    <TextView
+        android:id="@+id/privacy"
+        android:layout_below="@id/txt_terms"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:layout_marginTop="5dp"
+        android:text="Privacy policy"
+        android:textSize="18sp"
+        android:textColor="#404040"
+        android:fontFamily="@font/source_sans_pro"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        android:drawableRight="@drawable/next_more"/>
+
+
+
+</RelativeLayout>

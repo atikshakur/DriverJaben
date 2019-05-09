@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F3F6"
+    tools:context=".SevenActivity">
+
+    <LinearLayout
+        android:id="@+id/cardview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="190dp"
+            android:layout_height="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Income"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textSize="18sp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TAKA 0"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardview1"
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="3dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Trips"
+                        android:fontFamily="@font/source_sans_pro_semibold"
+                        android:textSize="18sp"
+                        android:textColor="#000000"/>
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/help"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TAKA 0"
+                    android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/source_sans_pro"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_layout2"
+        android:layout_below="@id/cardview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/permissions"
+                    android:background="@drawable/background_oval_ayesh_black"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Verify Your Account"
+                    android:textSize="23sp"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To verify your account please come to the Jaben Training Center. For more information please contact: "
+                android:textSize="15sp"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_layout3"
+        android:layout_below="@id/cardview_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/layout_today_notification"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/notification_driver"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="See all notifications"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/source_sans_pro"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/next_driver" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_layout4"
+        android:layout_below="@id/cardview_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/layout_account_doc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/phone_driver"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="Not getting request?"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/source_sans_pro"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/next_driver" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_layout5"
+        android:layout_below="@id/cardview_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/layout_today_list"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:src="@drawable/listen_driver"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="List of Jaben WIS"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/source_sans_pro"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/next_driver" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview_layout6"
+        android:layout_below="@id/cardview_layout5"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#D01A1E">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jaben Earnings"
+                android:textSize="30sp"
+                android:fontFamily="@font/source_sans_pro"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TAKA  0.0"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:textColor="#ffffff"/>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/refresh"
+                    android:background="@drawable/background_oval_refresh"
+                    android:padding="5dp"
+                    android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+</ScrollView>

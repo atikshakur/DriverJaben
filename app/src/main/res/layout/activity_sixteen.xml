@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".SixteenActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/set_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#ffffff"
+        android:logo="@drawable/jaben_logo_final"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:elevation="4dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:src="@drawable/jaben_logo_final"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/text_drivers_rate"
+        android:layout_below="@id/set_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF0723"
+        android:text="Nearest Driver's Rate"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:fontFamily="@font/source_sans_pro_semibold"/>
+
+    <LinearLayout
+        android:id="@+id/layout_list1"
+        android:layout_below="@id/text_drivers_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#F8F9F9">
+
+        <ImageView
+            android:id="@+id/ndr_image1"
+            android:layout_width="65dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:src="@drawable/index_page_img1"
+            android:background="@drawable/circle_border_background"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:text="Mr.Raiham"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_discription1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Dhaka Metro-Cha 776"
+                android:textAllCaps="true"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_rate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Rating : 100%"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_80taka1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/source_sans_pro_bold"
+                android:text="80TK"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ndr_btn_confirm1"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#78797B"
+                    android:text="Confirm"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+                <Button
+                    android:id="@+id/ndr_btn_cancel1"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#FF0723"
+                    android:text="Cancel"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_list2"
+        android:layout_below="@id/layout_list1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ndr_image2"
+            android:layout_width="65dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:src="@drawable/index_page_img1"
+            android:background="@drawable/circle_border_background"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:text="Mr.Raiham"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_discription2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Dhaka Metro-Cha 776"
+                android:textAllCaps="true"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_rate2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Rating : 100%"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_80taka2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/source_sans_pro_bold"
+                android:text="80TK"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ndr_btn_confirm2"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#78797B"
+                    android:text="Confirm"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+                <Button
+                    android:id="@+id/ndr_btn_cancel2"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#FF0723"
+                    android:text="Cancel"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_list3"
+        android:layout_below="@id/layout_list2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F8F9F9"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ndr_image3"
+            android:layout_width="65dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:src="@drawable/index_page_img1"
+            android:background="@drawable/circle_border_background"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:text="Mr.Raiham"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_discription3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Dhaka Metro-Cha 776"
+                android:textAllCaps="true"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_rate3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Rating : 100%"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_80taka3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/source_sans_pro_bold"
+                android:text="80TK"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ndr_btn_confirm3"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#78797B"
+                    android:text="Confirm"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+                <Button
+                    android:id="@+id/ndr_btn_cancel3"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#FF0723"
+                    android:text="Cancel"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_list4"
+        android:layout_below="@id/layout_list3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ndr_image4"
+            android:layout_width="65dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:src="@drawable/index_page_img1"
+            android:background="@drawable/circle_border_background"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:text="Mr.Raiham"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_discription4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Dhaka Metro-Cha 776"
+                android:textAllCaps="true"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_rate4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Rating : 100%"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_80taka4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/source_sans_pro_bold"
+                android:text="80TK"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ndr_btn_confirm4"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#78797B"
+                    android:text="Confirm"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+                <Button
+                    android:id="@+id/ndr_btn_cancel4"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#FF0723"
+                    android:text="Cancel"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_list5"
+        android:layout_below="@id/layout_list4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F8F9F9"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ndr_image5"
+            android:layout_width="65dp"
+            android:layout_height="70dp"
+            android:padding="8dp"
+            android:src="@drawable/index_page_img1"
+            android:background="@drawable/circle_border_background"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:text="Mr.Raiham"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_discription5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Dhaka Metro-Cha 776"
+                android:textAllCaps="true"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ndr_txt_rate5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/source_sans_pro"
+                android:text="Rating : 100%"
+                android:textAllCaps="false"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ndr_txt_80taka5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/source_sans_pro_bold"
+                android:text="80TK"
+                android:textColor="#000000"
+                android:textSize="40sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ndr_btn_confirm5"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#78797B"
+                    android:text="Confirm"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+                <Button
+                    android:id="@+id/ndr_btn_cancel5"
+                    android:layout_width="50dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="2dp"
+                    android:background="#FF0723"
+                    android:text="Cancel"
+                    android:fontFamily="@font/source_sans_pro_semibold"
+                    android:textColor="#ffffff"
+                    android:textSize="10sp"
+                    android:textAllCaps="true"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoyt_btn6"
+        android:layout_below="@id/layout_list5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/ndr_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_rectangle_red"
+            android:fontFamily="@font/source_sans_pro_bold"
+            android:text="Send Your Ride Request"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

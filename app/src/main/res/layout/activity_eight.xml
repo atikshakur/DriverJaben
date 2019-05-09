@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".EightActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/background_oval_ayesh_black"
+                android:src="@drawable/bike"
+                android:padding="5dp"
+                android:layout_marginTop="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pick_up_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CP Five Star,Chanmari Rd,Lalkhan Bazar"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/drop_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Govt City College,Sadarghat"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bacground_border_red_rectangle"
+                    android:text="Ride Completed"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="April 16,2019,12:05 pm"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e6e9ec" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/background_oval_ayesh_black"
+                android:src="@drawable/bike"
+                android:padding="5dp"
+                android:layout_marginTop="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pick_up_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Court Building Gate,Kotwali"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/drop_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ispahani Circle,Lalkhan Bazar"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bacground_border_red_rectangle"
+                    android:text="Ride Completed"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="April 15,2019,12:05 pm"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e6e9ec" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/background_oval_ayesh_black"
+                android:src="@drawable/bike"
+                android:padding="5dp"
+                android:layout_marginTop="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pick_up_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GEC Circle"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/drop_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ispahani Circle,Lalkhan Bazar"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bacground_border_red_rectangle"
+                    android:text="Ride Completed"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="March 15,2019,10:28 am"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e6e9ec" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/background_oval_ayesh_black"
+                android:src="@drawable/bike"
+                android:padding="5dp"
+                android:layout_marginTop="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pick_up_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CP Five Star,Chanmari Rd,Lalkhan Bazar"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/drop_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Govt City College,Sadarghat"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bacground_border_red_rectangle"
+                    android:text="Ride Completed"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="March 14,2019,12:05 pm"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e6e9ec" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/background_oval_ayesh_black"
+                android:src="@drawable/bike"
+                android:padding="5dp"
+                android:layout_marginTop="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/pick_up_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CP Five Star,Chanmari Rd,Lalkhan Bazar"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="330dp"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/drop_dot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Govt City College,Sadarghat"
+                        android:fontFamily="@font/source_sans_pro"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="10dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bacground_border_red_rectangle"
+                    android:text="Ride Completed"
+                    android:textAllCaps="true"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:textSize="12sp"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="April 16,2019,12:05 pm"
+                    android:textSize="15sp"
+                    android:textAllCaps="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#e6e9ec" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

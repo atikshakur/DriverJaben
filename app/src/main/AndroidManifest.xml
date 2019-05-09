@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SixteenActivity"></activity>
+        <activity android:name=".login.EnterPhoneForLogin"></activity>
+        <activity android:name=".SixteenActivity" />
         <activity android:name=".FifeteenActivity" />
         <activity android:name=".FourteenActivity" />
         <activity android:name=".ThirteenActivity" />

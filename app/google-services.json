@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "18048232920",
+    "firebase_url": "https://jabendriver-fa468.firebaseio.com",
+    "project_id": "jabendriver-fa468",
+    "storage_bucket": "jabendriver-fa468.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18048232920:android:8ede9ca9e7f67173",
+        "android_client_info": {
+          "package_name": "com.example.driverjaben"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18048232920-sob8p4rofmu84251eg943gapkre6e309.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.driverjaben",
+            "certificate_hash": "eb8209cb5541dbfa2e480ce1a354cd135640ec02"
+          }
+        },
+        {
+          "client_id": "18048232920-jgudqpjsh4ksjlpn2t0gcgf6nmmqqtdi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcwUMqHLXOpxkABxmkR16KjBYHt09RGh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18048232920-jgudqpjsh4ksjlpn2t0gcgf6nmmqqtdi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

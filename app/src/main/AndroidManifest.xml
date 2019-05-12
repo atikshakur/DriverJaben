@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login.EnterPhoneForLogin"></activity>
+        <activity android:name=".entrypoint.Home"></activity>
+        <activity android:name=".entrypoint.IsRegistered" />
+        <activity android:name=".entrypoint.IsLoggedIn" />
+        <activity android:name=".driver.loginandsignup.EnterOTP" />
+        <activity android:name=".driver.loginandsignup.EnterPhone" />
         <activity android:name=".SixteenActivity" />
         <activity android:name=".FifeteenActivity" />
         <activity android:name=".FourteenActivity" />
@@ -24,7 +28,7 @@
         <activity android:name=".FiveActivity" />
         <activity android:name=".FourActivity" />
         <activity android:name=".ThreeActivity" />
-        <activity android:name=".TwoActivity" />
+        <activity android:name=".Registration" />
         <activity android:name=".OneActivity" />
         <activity android:name=".entrypoint.SplashActivity">
             <intent-filter>

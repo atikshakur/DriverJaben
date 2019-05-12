@@ -6,9 +6,8 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.driverjaben.EightActivity;
 import com.example.driverjaben.R;
-import com.example.driverjaben.login.EnterPhoneForLogin;
+import com.example.driverjaben.driver.loginandsignup.EnterPhone;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -23,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(SplashActivity.this, EnterPhoneForLogin.class);
+                Intent intent = new Intent(SplashActivity.this, EnterPhone.class);
                 startActivity(intent);
                 finish();
             }

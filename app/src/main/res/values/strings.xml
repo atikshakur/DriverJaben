@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Driver Jaben</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_the_code_that_was_sent_to">Enter the code that was sent to</string>
+    <string name="_88014573465">+88014573465</string>
+    <string name="i_didn_t_get_a_code">I didn\'t get a code</string>
+    <string name="continue_txt">Continue</string>
+    <string name="full_name_same_as_nid_license">Full Name (Same as NID/License)*</string>
+    <string name="address">Address</string>
+    <string name="nid_number">NID Number*</string>
+    <string name="date_of_birth">Date of Birth*</string>
+    <string name="driving_license">Driving License*</string>
+    <string name="vehicle_name">Vehicle Name*</string>
+    <string name="vehicle_model_number">Vehicle Model Number*</string>
+    <string name="vehicle_color">Vehicle Color*</string>
+    <string name="fitness_certificate">Fitness Certificate</string>
+    <string name="tax_token">Tax Token</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="take_your_photo">Take Your Photo</string>
+    <string name="referral_mobile_number">Referral Mobile Number</string>
+    <string name="by_signing_up_you_are_agree_to_terms_and_cndition">by signing up you are agree to terms and cndition.</string>
+    <string name="agree_and_signup">Agree and Signup</string>
 </resources>

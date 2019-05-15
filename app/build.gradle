@@ -47,6 +47,15 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
 
+    //EasyPermission
+    implementation 'com.github.p32929:FayazPermissions:1.0.0.1'
+
+    //Simple Location
+    implementation 'com.github.delight-im:Android-SimpleLocation:v1.0.1'
+
+    //Location
+    implementation "com.google.android.gms:play-services-location:16.0.0"
+
 }
 apply plugin: 'com.google.gms.google-services'
 repositories {

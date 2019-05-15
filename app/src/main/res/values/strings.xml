@@ -20,4 +20,7 @@
     <string name="referral_mobile_number">Referral Mobile Number</string>
     <string name="by_signing_up_you_are_agree_to_terms_and_cndition">by signing up you are agree to terms and cndition.</string>
     <string name="agree_and_signup">Agree and Signup</string>
+    <string name="number_plate">Number plate</string>
+    <string name="ex_toyota">Vehicle brand Ex: Toyota</string>
+    <string name="vehicle_model_ex_corolla">Vehicle model Ex: Corolla</string>
 </resources>

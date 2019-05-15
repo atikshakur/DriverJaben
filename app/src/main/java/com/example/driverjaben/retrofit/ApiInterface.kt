@@ -1,6 +1,7 @@
 package com.example.driverjaben.retrofit
 
 import com.example.driverjaben.model.Driver
+import com.example.driverjaben.model.Phone
 import com.example.driverjaben.model.ServerResponse
 import retrofit2.Call
 import retrofit2.http.Body
@@ -21,5 +22,5 @@ interface ApiInterface {
      * Driver Exist or not
      */
     @POST("driver/login")
-    fun driverExist(@Field("phone") phone: String): Call<ServerResponse>
+    fun driverExist(@Body phone: Phone): Call<ServerResponse>
 }

@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.driverjaben">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -8,12 +13,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".entrypoint.Home"></activity>
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".entrypoint.Home" />
         <activity android:name=".entrypoint.IsRegistered" />
         <activity android:name=".entrypoint.IsLoggedIn" />
-        <activity android:name=".driver.loginandsignup.EnterOTP" />
-        <activity android:name=".driver.loginandsignup.EnterPhone" />
+        <activity android:name=".entrypoint.EnterOTP" />
+        <activity android:name=".entrypoint.EnterPhone" />
         <activity android:name=".SixteenActivity" />
         <activity android:name=".FifeteenActivity" />
         <activity android:name=".FourteenActivity" />
@@ -28,7 +34,7 @@
         <activity android:name=".FiveActivity" />
         <activity android:name=".FourActivity" />
         <activity android:name=".ThreeActivity" />
-        <activity android:name=".Registration" />
+        <activity android:name=".entrypoint.Registration" />
         <activity android:name=".OneActivity" />
         <activity android:name=".entrypoint.SplashActivity">
             <intent-filter>

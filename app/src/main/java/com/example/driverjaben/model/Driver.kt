@@ -1,13 +1,20 @@
 package com.example.driverjaben.model
 
 data class Driver(val name: String,
+                  val phone: String,
                   val address: String,
+                  val city: String,
                   val nid: String,
+                  val deviceID: String,
                   val dateOfBirth: String,
                   val drivingLicense: String,
+                  val vehicleType: String,
                   val vehicleName: String,
                   val vehicleModel: String,
                   val vehicleColor: String,
+                  val numberPlate: String,
                   val fitnessCertificate: String,
                   val taxToken: String,
-                  val referralMobileNumber: String)
+                  val referralMobileNumber: String,
+                  val driverLat: String,
+                  var driverLng: String)
